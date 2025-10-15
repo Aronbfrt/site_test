@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>[Your Website URL]/index.html</loc>
+    <lastmod>2025-10-11</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>[Your Website URL]/about.html</loc>
+    <lastmod>2025-10-11</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>[Your Website URL]/skills.html</loc>
+    <lastmod>2025-10-11</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>[Your Website URL]/projects.html</loc>
+    <lastmod>2025-10-11</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>[Your Website URL]/cv.html</loc>
+    <lastmod>2025-10-11</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>[Your Website URL]/contact.html</loc>
+    <lastmod>2025-10-11</lastmod>
+    <priority>0.80</priority>
+  </url>
+</urlset>

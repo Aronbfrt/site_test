@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Compétences</title>
+    <meta name="description" content="Découvrez les compétences techniques : HTML, CSS, JavaScript, Python, et plus. Consultez aussi mes soft skills.">
+    <meta name="keywords" content="alternance, portfolio, compétences, HTML, CSS, JavaScript, Python, soft skills">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="light-mode">
+    <div id="preloader">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <div id="navbar-placeholder"></div>
+
+    <main class="container mt-5 pt-5">
+        <section id="skills" class="py-5 bg-white rounded shadow-sm animate-on-scroll">
+            <h1 class="text-center mb-5">Mes Compétences</h1>
+
+            <!-- Technical Skills -->
+            <div class="container">
+                <h2 class="text-center mb-4">Compétences Techniques</h2>
+                <div class="row gy-4">
+                    <!-- Languages -->
+                    <div class="col-lg-6">
+                        <div class="skill-card">
+                            <h3 class="skill-card-title">Langages</h3>
+                            <div class="skill-list">
+                                <div class="skill-item"><i class="fab fa-python skill-icon"></i> Python</div>
+                                <div class="skill-item"><i class="fab fa-js-square skill-icon"></i> JavaScript (ES6+)</div>
+                                <div class="skill-item"><i class="fab fa-html5 skill-icon"></i> HTML5</div>
+                                <div class="skill-item"><i class="fab fa-css3-alt skill-icon"></i> CSS3</div>
+                                <div class="skill-item"><i class="fas fa-database skill-icon"></i> SQL</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Frontend -->
+                    <div class="col-lg-6">
+                        <div class="skill-card">
+                            <h3 class="skill-card-title">Frontend</h3>
+                            <div class="skill-list">
+                                <div class="skill-item"><i class="fab fa-react skill-icon"></i> React</div>
+                                <div class="skill-item"><i class="fab fa-bootstrap skill-icon"></i> Bootstrap</div>
+                                <div class="skill-item"><i class="fab fa-sass skill-icon"></i> SASS/SCSS</div>
+                                <div class="skill-item"><i class="fas fa-mobile-alt skill-icon"></i> Responsive Design</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Backend -->
+                    <div class="col-lg-6">
+                        <div class="skill-card">
+                            <h3 class="skill-card-title">Backend</h3>
+                            <div class="skill-list">
+                                <div class="skill-item"><i class="fab fa-node-js skill-icon"></i> Node.js</div>
+                                <div class="skill-item"><i class="fas fa-server skill-icon"></i> Express.js</div>
+                                <div class="skill-item"><i class="fab fa-python skill-icon"></i> Django</div>
+                                <div class="skill-item"><i class="fas fa-flask skill-icon"></i> Flask</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tools & DevOps -->
+                    <div class="col-lg-6">
+                        <div class="skill-card">
+                            <h3 class="skill-card-title">Outils & DevOps</h3>
+                            <div class="skill-list">
+                                <div class="skill-item"><i class="fab fa-git-alt skill-icon"></i> Git & GitHub</div>
+                                <div class="skill-item"><i class="fab fa-docker skill-icon"></i> Docker</div>
+                                <div class="skill-item"><i class="fas fa-terminal skill-icon"></i> Ligne de commande</div>
+                                <div class="skill-item"><i class="fas fa-cogs skill-icon"></i> REST APIs</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="container mt-5">
+                <h2 class="text-center mb-4">Soft Skills</h2>
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <div class="skill-card"> <!-- Apply skill-card styling here -->
+                            <ul class="soft-skills-list">
+                                <li><i class="fas fa-users me-2"></i> Travail en équipe & Collaboration</li>
+                                <li><i class="fas fa-lightbulb me-2"></i> Résolution de problèmes complexes</li>
+                                <li><i class="fas fa-sync-alt me-2"></i> Adaptabilité & Apprentissage continu</li>
+                                <li><i class="fas fa-comments me-2"></i> Communication claire et efficace</li>
+                                <li><i class="fas fa-tasks me-2"></i> Gestion de projet & Autonomie</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <button id="back-to-top" class="btn btn-primary rounded-circle"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="js/layout.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
